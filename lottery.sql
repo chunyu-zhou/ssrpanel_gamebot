@@ -1,0 +1,1 @@
+INSERT INTO `ssrpanel`.`lottery` (`id`, `expect`, `opencode`) VALUES ('1', '1', '0')

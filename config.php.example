@@ -1,0 +1,19 @@
+<?php
+$config = [
+		'database_type' => "mysql", //连接类型：mysql、mssql、sybase  
+		'database_name' => "ssrpanel", //数据库名  
+		'server' => "127.0.0.1", //数据库地址   
+		'port' => 3306,
+		'username' => "ssrpanel", //数据库账号  
+		'password' => "ssrpanel", //数据库密码 
+		'charset' => 'utf8'
+];
+$bot_token = '';
+$bot_name ='@xxx_bot'; //机器人名称
+$channel_id = null; //开奖通知频道，如果没有请设置为null
+$group_id = '@xxx'; //开奖通知群组，如果没有请设置为null
+$balance_bet = true; //是否开启余额下注
+$transfer_bet = true; //是否开启流量下注
+$score_bet = false; //是否开启积分下注，最后的开源版本因为去除了积分功能，请设置为false
+$url = 'SSRPanel站点网址 '
+?>
